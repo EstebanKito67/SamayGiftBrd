@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>nav displacement map</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div id="wrap-texture">
+  <!-- div that will hold our WebGL canvas -->
+  <div id="canvas"></div>
+
+  <!-- div used to create our plane -->
+  <div class="plane">
+
+    <!-- images that will be used as textures by our plane -->
+    <img class="texture" src="https://i.postimg.cc/QNnzCCs1/foto1.jpg" crossorigin="anonymous" />
+    <img class="texture" src="https://i.postimg.cc/qBZFqq0c/foto2.jpg" crossorigin="anonymous" />
+  </div>
+</div>
+
+<nav class="nav-main">   
+  <ul>     
+    <!-- SE CORRIGIÓ LA RUTA APUNTANDO A LA CARPETA SARAB -->
+    <li data-link="sarab/index.html">
+      <span class="first-menu">CHUSMEÁME</span>
+      <span class="second-menu">CHUSMEÁME</span>
+    </li>     
+    <li data-link="https://drive.google.com/drive/folders/1egD95NQT1_WQAKSWhfxcotPQRIDs9nJV?usp=drive_link">
+      <span class="first-menu">SECRETITO</span>
+      <span class="second-menu">SECRETITO</span>
+    </li>   
+  </ul> 
+</nav>    <script src='https://rawcdn.githack.com/martinlaxenaire/curtainsjs/95957f855ad9fd51850e97312cd389af76e9704e/build/curtains.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>

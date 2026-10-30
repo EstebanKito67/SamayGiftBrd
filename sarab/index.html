@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Sarab">
+      <meta name="description" content="Calebo">
+      <title>JAPIBIRDEI</title>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet"/>
+      <!-- Bootstrap 5.3 -->
+      <link href="css/bootstrap.min.css" rel="stylesheet"/>
+      <!-- AOS Animate on Scroll -->
+      <link href="css/aos.css" rel="stylesheet"/>
+      <!-- Swiper -->
+      <link href="css/swiper-bundle.min.css" rel="stylesheet"/>
+      <!-- all min css -->
+      <link rel="stylesheet" href="css/all.min.css"/>
+      <!-- magnific CSS -->
+      <link rel="stylesheet" href="css/magnific-popup.css"/>
+      <!-- Style CSS -->
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+            <!-- ============================================================
+         NAVBAR
+         ============================================================ -->
+      <nav class="navbar navbar-expand-lg" id="nav">
+         <div class="container">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <i class="fas fa-bars" style="color:var(--primary);font-size:1.35rem;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+               <ul class="navbar-nav mx-auto">
+                  <li class="nav-item"><a class="nav-link active" href="#hero">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#about"> Parte 1</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#menu"> Parte 2</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#chefs"> Parte 3</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#reservation"> Parte 4</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- ============================================================
+         FIX 1 � SEARCH OVERLAY POPUP
+         ============================================================ -->
+      <div id="searchOv">
+         <button class="sovclose" id="searchClose"><i class="fas fa-times"></i></button>
+         <div class="sovbox">
+            <h4>What are you craving today?</h4>
+            <div class="sovinput">
+               <input type="text" id="searchInput" placeholder="Search burgers, pizza, chicken..." autocomplete="off"/>
+               <button><i class="fas fa-search"></i></button>
+            </div>
+            <!-- Categories inside search box -->
+            <div class="sovcats">
+               <div class="sovcat active" data-cat="all">
+                  <img src="img/menu/1.jpg" alt=""/>All Items
+               </div>
+               <div class="sovcat" data-cat="burgers">
+                  <img src="img/menu/1.jpg" alt=""/>Burgers
+               </div>
+               <div class="sovcat" data-cat="pizza">
+                  <img src="img/menu/2.jpg" alt=""/>Pizza
+               </div>
+               <div class="sovcat" data-cat="chicken">
+                  <img src="img/menu/3.jpg" alt=""/>Chicken
+               </div>
+               <div class="sovcat" data-cat="wraps">
+                  <img src="img/menu/4.jpg" alt=""/>Wraps
+               </div>
+               <div class="sovcat" data-cat="pasta">
+                  <img src="img/menu/5.jpg" alt=""/>Pasta
+               </div>
+               <div class="sovcat" data-cat="desserts">
+                  <img src="img/menu/6.jpg" alt=""/>Desserts
+               </div>
+            </div>
+            <div class="sovtrend">
+               <p><i class="fas fa-fire me-1" style="color:var(--secondary);"></i>Trending Searches</p>
+               <span class="ttag">Smash Burger</span>
+               <span class="ttag">Nashville Chicken</span>
+               <span class="ttag">Truffle Pizza</span>
+               <span class="ttag">Lava Cake</span>
+               <span class="ttag">Loaded Fries</span>
+               <span class="ttag">Mango Shake</span>
+            </div>
+         </div>
+      </div>
+      <!-- ============================================================
+         HERO
+         ============================================================ -->
+      <section id="hero">
+         <div class="hs hs1"></div>
+         <div class="hs hs2"></div>
+         <div class="hbgtxt">FOOD</div>
+         <div class="container">
+            <div class="row align-items-center g-5" style="min-height:88vh;">
+               <div class="col-lg-6">
+                  <h1 class="htitle">¡FELIZ <span class="hl">CUMPLEAÑOS</span><br/>MI VIDAAA!</h1>
+                  <p class="hdesc">Otro de los tantos regalitos pa darte, espero te guste y disfrutes este día <3.</p>
+               </div>
+               <div class="col-lg-6">
+                  <div style="position:relative;text-align:center;">
+                     <div class="hcircle">
+                        <img src="https://i.postimg.cc/xCVqH0PH/8d1fbcec50958a892d557a649ae1ce8a.jpg" alt="Foto gral"/>
+                     </div>
+                     <!-- Caja 1 (Arriba a la izquierda) -->
+<div class="fcard fc1" style="display: flex; align-items: center; justify-content: center; padding: 10px; min-width: auto;">
+   <img src="https://i.postimg.cc/XJ6XFVg5/chiq1.jpg" alt="Icono 1" style="width: 75px; height: 75px; object-fit: contain;"/>
+</div>
+
+<!-- Caja 2 (Abajo a la derecha) -->
+<div class="fcard fc2" style="display: flex; align-items: center; justify-content: center; padding: 10px; min-width: auto;">
+   <img src="https://i.postimg.cc/Kzh4LZ5k/chiq2.jpg" alt="Icono 2" style="width: 75px; height: 75px; object-fit: contain;"/>
+</div>
+
+<!-- Caja 3 (Derecha al medio) -->
+<div class="fcard fc3" style="display: flex; align-items: center; justify-content: center; padding: 10px; min-width: auto;">
+   <img src="https://i.postimg.cc/rm2zW89K/chiq3.jpg" alt="Icono 3" style="width: 75px; height: 75px; object-fit: contain;"/>
+</div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- MARQUEE -->
+      <div class="mqsec">
+         <div class="mqtrack">
+            <div class="mqitem"><i class="fas fa-circle"></i>TE AMO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE QUIERO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE AMO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE APRECIO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE AMO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE ADORO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE AMO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE VALORO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE AMO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE ELIJO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE AMO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE EXTRAÑO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>TE AMO</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>SOS MI TODO :) </div>
+         </div>
+      </div>
+      <!-- ABOUT -->
+            <!-- ABOUT / REGALO 1 -->
+      <section id="about" style="padding: 80px 0;">
+         <div class="container">
+            <div class="row align-items-center g-5">
+               
+               <!-- Columna Izquierda: Mensaje y Título -->
+               <div class="col-lg-4" data-aos="fade-right">
+                  <span class="slbl">Parte 1</span>
+                  <div class="sline lft"></div>
+                  <p class="sdesc mb-4" style="font-size: 1.1rem; line-height: 1.6;">
+                     Deslizá el mouse en cada recuadro colorinche :)❤️
+                  </p>
+               </div>
+               
+               <!-- Columna Derecha: Tu proyecto embebido -->
+               <div class="col-lg-8" data-aos="fade-left">
+                  <div style="position: relative; background: #111a2e; padding: 20px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); border: 2px dashed #ffb3c1;">
+                     
+                     <!-- El iframe carga de forma exacta tu componente de colores -->
+                     <iframe src="regalo1/index.html" 
+                             title="Regalo 1 - Componente"
+                             style="width: 100%; height: 450px; border: none; display: block; background: transparent; overflow: hidden;"
+                             scrolling="no">
+                     </iframe>
+                     
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+            <!-- ============================================================
+         MENU  REGALO 2 EMBEBIDO 
+         ============================================================ -->
+      <section id="menu" style="padding: 80px 0; background-color: #0f172a;">
+         <div class="container">
+            
+            <!-- Encabezado lindo y personalizado -->
+            <div class="text-center mb-5" data-aos="fade-up">
+               <h2 class="stitle" style="color: #fff;">Parte <span>Dos</span></h2>
+               <div class="sline"></div>
+            </div>
+
+            <!-- Contenedor del segundo regalo -->
+            <div class="row" data-aos="fade-up">
+               <div class="col-112">
+                  <div style="position: relative; width: 100%; background: transparent; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border: 2px dashed #ffb3c1;">
+                     
+                     <!-- Cargamos el index.html que sacamos de la carpeta dist -->
+                     <iframe src="regalo2/index.html" 
+                             title="Regalo Terminado 2"
+                             style="width: 100%; height: 650px; border: none; display: block; background: transparent;"
+                             scrolling="yes">
+                     </iframe>
+
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+	  
+	  
+      <!-- ============================================================
+         FIX 4 � MENU DETAIL POPUP MODAL
+         ============================================================ -->
+      <div id="menuPop">
+         <div class="mpbox">
+            <button class="mpclose" id="mpClose"><i class="fas fa-times"></i></button>
+            <div class="mpimg"><img id="mpImg" src="" alt=""/></div>
+            <div class="mpbody">
+               <div id="mpCat"></div>
+               <div id="mpTitle"></div>
+               <div id="mpStars"></div>
+               <div id="mpDesc"></div>
+               <div id="mpPrice"></div>
+               <div class="mpmeta" id="mpMeta"></div>
+               <div class="mpqty">
+                  <button class="mpqbtn" id="mpMinus">-</button>
+                  <span class="mpqnum" id="mpQnum">1</span>
+                  <button class="mpqbtn" id="mpPlus">+</button>
+                  <span style="font-size:.82rem;color:#aaa;margin-left:9px;">portion</span>
+               </div>
+               <div class="mptags" id="mpTags"></div>
+               <button class="mpaddcart" id="mpAddCart"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+            </div>
+         </div>
+      </div>
+
+
+      <!-- ============================================================
+         CHEFS - REGALO 3 EMBEBIDO (CON FONDO ESPECIAL ROJO)
+         ============================================================ -->
+      <section id="chefs" style="padding: 80px 0; background: linear-gradient(135deg, #1a0000 0%, #2d0000 100%); position: relative; overflow: hidden;">
+         
+         <!-- Rayitas diagonales estéticas clonadas de special offer -->
+         <div class="spbg" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.03; background: repeating-linear-gradient(45deg, #fff 0, #fff 1px, transparent 0, transparent 50%); background-size: 40px 40px; z-index: 1;"></div>
+         
+         <div class="container" style="position: relative; z-index: 2;">
+            
+            <!-- Encabezado personalizado -->
+            <div class="text-center mb-5" data-aos="fade-up">
+               <h2 class="stitle" style="color: #fff;">Parte <span>Tres</span></h2>
+               <div class="sline"></div>
+               <p style="color: rgba(255, 255, 255, 0.7); max-width: 600px; margin: 15px auto 0 auto; font-size: 1.1rem;">
+                  ¡Más frasecitas! Podes deslizar manual o dejar que pase❤️
+               </p>
+            </div>
+
+            <!-- Contenedor del tercer regalo -->
+            <div class="row" data-aos="fade-up">
+               <div class="col-12">
+                  <div style="position: relative; width: 100%; background: transparent; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 2px dashed #ffb3c1;">
+                     
+                     <!-- Cargamos el index.html de la carpeta regalo3 -->
+                     <iframe src="regalo3/index.html" 
+                             title="Regalo Terminado 3"
+                             style="width: 100%; height: 600px; border: none; display: block; background: transparent;"
+                             scrolling="yes">
+                     </iframe>
+
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+	  
+	  	  	  
+            <!-- ============================================================
+         RESERVATION - EL GRAN BOTÓN DEL REGALO 4
+         ============================================================ -->
+      <section id="reservation" style="padding: 100px 0; background: #fffdfb; text-align: center;">
+         <div class="container">
+            
+            <!-- Encabezado del Cuarto Regalo -->
+            <div class="text-center mb-5" data-aos="fade-up">
+               <span class="slbl">Parte 4</span>
+               <div class="sline" style="margin: 0 auto 25px auto;"></div>
+               <p class="sdesc mx-auto" style="max-width: 600px; font-size: 1.15rem; color: #555; line-height: 1.6;">
+                  Por razones estéticas, esta sección debe verse en otra pestaña.
+               </p>
+            </div>
+
+            <!-- Caja Interactiva Central con el Botón -->
+            <div class="row justify-content-center">
+               <div class="col-lg-8" data-aos="zoom-in">
+                  <div style="background: #111a2e; border-radius: 24px; padding: 50px 30px; box-shadow: 0 15px 40px rgba(17, 26, 46, 0.15); border: 2px dashed #ffb3c1; position: relative; overflow: hidden;">
+                     
+                     <!-- Sutil decoración flotante de fondo -->
+                     <div style="position: absolute; top: -20px; right: -20px; font-size: 80px; color: rgba(255,179,193,0.1); pointer-events: none; transform: rotate(15deg);"><i class="fas fa-heart"></i></div>
+                     <div style="position: absolute; bottom: -20px; left: -20px; font-size: 80px; color: rgba(255,179,193,0.1); pointer-events: none; transform: rotate(-15deg);"><i class="fas fa-gift"></i></div>
+
+                     <h4 style="color: #fff; font-size: 1.4rem; margin-bottom: 15px; font-family: sans-serif;">✨ PASOS ✨</h4>
+                     <p style="color: #94a3b8; font-size: 0.95rem; max-width: 500px; margin: 0 auto 35px auto; line-height: 1.5;">
+                        ¡Clickeá el botón para abrir un diseñito secreto :D. Al entrar, podes arrastrar la pantalla con el mouse para descubrirlo, o usar las teclas en este orden!
+                        <br/>
+                        <span style="display: inline-block; margin-top: 12px; padding: 4px 10px; background: rgba(255,255,255,0.08); border-radius: 6px; color: #ffb3c1; font-weight: bold; font-family: monospace;">Presioná el 3 ➜ luego el 2 ➜ y finalmente la F</span>
+                     </p>
+
+                     <!-- Botón de apertura a pantalla completa -->
+                     <a href="regalo4/index.html" target="_blank" class="btn-red" 
+                        style="padding: 18px 45px; font-size: 19px; border-radius: 50px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 10px 25px rgba(239, 61, 72, 0.45); font-weight: bold; transition: transform 0.2s;">
+                        <i class="fas fa-rocket me-2" style="animation: bounce 2s infinite;"></i> ¡Entrá y volvé, eh!
+                     </a>
+
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+	  
+            <!-- ============================================================
+         NUESTRA PLAYLIST DE CANCIONES
+         ============================================================ -->
+      <section id="newsletter" style="padding: 90px 0; position: relative;">
+         <div class="nlbg"></div>
+         <div class="container">
+            <div class="nlw text-center" data-aos="zoom-in" style="position: relative; z-index: 2;">
+               
+               <span class="slbl" style="color: rgba(255,255,255,.8); font-weight: bold; font-size: 1.1rem;">Pa dedicar :D</span>               
+                <p class="mb-4" style="color: rgba(255,255,255,.85); max-width: 550px; margin: 0 auto 35px auto; font-size: 1.05rem; line-height: 1.6;">
+                  Las escuchás después boe
+               </p>
+               <!-- Contenedor del Botón Limpio (Sin el cuadro de input de email) -->
+               <div style="display: flex; justify-content: center; align-items: center;">
+                  <a href="https://youtube.com/playlist?list=PLKzm3hpD8sVM&si=TVbOIz3DLAHYkDe6" target="_blank" class="nlbtn" id="nlBtn" 
+                     style="display: inline-flex; align-items: center; justify-content: center; padding: 16px 40px; font-size: 18px; font-weight: bold; text-decoration: none; border-radius: 50px; box-shadow: 0 8px 25px rgba(255, 193, 7, 0.4); border: none; min-width: 250px; cursor: pointer; transition: transform 0.2s;">
+                     <i class="fab fa-youtube me-2" style="font-size: 22px;"></i> ABRIR
+                  </a>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+	  	  
+      <!-- FOOTER -->
+      <footer style="padding: 30px 0; background: #1a1a1a; text-align: center;">
+   <div class="container d-flex justify-content-center align-items-center">
+      
+      <!-- Llamamos directamente al index de la carpeta regalo4 -->
+      <iframe src="extraFooter/index.html" style="width: 100%; max-width: 350px; height: 180px; border: none; overflow: hidden;"></iframe>
+      
+   </div>
+</footer>      
+      <!-- Floating cart -->
+      <!-- <div class="cartfl"><i class="fas fa-shopping-cart"></i><span>My Cart</span><div class="ccount" id="cartCount">0</div></div> -->
+      <!-- Back to top -->
+      <button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
+    
+	<!-- jQuery -->
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <!-- Bootstrap 5 -->
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <!-- AOS -->
+      <script src="js/aos.js"></script>
+      <!-- Swiper -->
+      <script src="js/swiper-bundle.min.js"></script>
+      <!-- CounterUp -->
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <!-- Main js -->
+      <script src="js/main.js"></script>
+   </body>
+</html>
